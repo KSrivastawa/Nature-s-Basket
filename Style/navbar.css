@@ -1,0 +1,284 @@
+nav{
+    /* border: 2px solid black; */
+    width: 100%;
+    /* height: 100px; */
+    background-color: #ffffff;
+}
+#container{
+    /* border: 2px solid palevioletred; */
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#logo{
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 100px;
+    margin-left: 10px;
+}
+
+#contents{
+    /* border: 1px solid blue; */
+    width: 60%;
+    height: auto;
+    /* margin-left: 60px; */
+   
+}
+#contents> .content_div{
+    /* border: 2px solid gray; */
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    text-align: center;
+}
+#contents>div>div{
+    /* border: 2px solid grey; */
+    font-size: 14px;
+    
+    
+}
+#search_logo{
+  /* border: 1px solid red; */
+  height: auto;
+  width: 80px;
+  display: inline-block;
+  /* margin-left: 10px; */
+  
+}
+
+
+#querry{
+
+  width: 90%;
+  height: 40px;
+  padding: 0px 0px 0px 4px;
+  display: inline-block;
+  
+}
+#contents>img{
+position: relative;
+  top:17px;
+  width: 55px;
+  height: auto;
+  
+  
+}
+
+#login_signin{
+  /* border: 2px solid black; */
+  width: 10%;
+  height: auto;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 40px;
+}
+#login_signin>div{
+  /* border: 2px solid orangered; */
+  text-align: center;
+}
+#login_signin>div>img{
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+#login_signin>div>a>img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+#mumbai{
+  display: flex;
+  /* flex-direction: row; */
+  text-align: center;
+}
+#mumbai>img{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 10px;
+  margin-left: 35px;
+  
+}
+
+#anc_log_one{
+   color: black;
+   
+}
+
+#anc_reg_reg{
+  color: black;
+}
+
+
+#append{
+  border: 1px solid #92be4d ;
+  width: 94.5%;
+  height: 150px;
+  font-size: 24px;
+  overflow: scroll;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start ;
+  flex-direction: column;
+  display: none;
+  
+  
+  /* text-align: center; */
+  
+}
+
+#append>div{
+  width: 35%;
+  height: auto;
+  text-align: center;
+}
+
+
+
+
+#main_otp_login{
+    border: 2px solid black;
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEDED;
+    display: none;
+    
+}
+#main_otp_login>div{
+    /* border: 2px solid teal; */
+    margin: auto;
+    width: 30%;
+    /* margin-top: 5px; */
+    
+}
+.mobile{
+    width: 200px;
+    height: 50px;
+
+    
+}
+#mob{
+    border: 1px solid lightgray;
+    background-image: url('https://tse1.mm.bing.net/th/id/OIP.XJeKHamRHoSINdHvKNRjmAHaHa?w=182&h=181&c=7&r=0&o=5&pid=1.7');
+    background-size: 40px 50px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    border-radius: 7px;
+    color: lightgray;
+    /* position: relative;
+    bottom: 50px; */
+}
+
+input[type="number"]::placeholder { 
+                  
+    
+    text-align: center;
+}
+
+#continue{
+    border-radius: 7px;
+    border: 2px solid #92be4d;
+    width: 170px;
+    height: 50px;
+    margin-left: 35px;
+    font-size: 20px;
+    background-color: #92be4d;
+    color: #ffffff;
+    /* position: relative;
+    bottom: 50px; */
+    
+}
+.exit{
+    border: 2px solid #EDEDED;
+    width: 60px;
+    height: 60px;
+    color: black;
+    margin-left: 96%;
+    font-size: 35px;
+}
+
+
+#details{
+    border: 2px solid black;
+    width: 100%;
+    height: 160px;
+    background-color: #EDEDED;
+    /* margin-top: 50px; */
+    display: none;
+}
+
+#fill_det{
+    /* border: 2px solid teal; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.adjust_icon{
+ /* border: 2px solid black; */
+ width: 250px;
+ height: 50px;
+ display: flex;
+ margin-left: 100px;
+}
+.adjust_icon>input{
+    width: 70%;
+    height: 90%;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#register{
+    border-radius: 7px;
+    border: 2px solid #92be4d;
+    width: 170px;
+    height: 50px;
+    margin-left: 75px;
+    font-size: 20px;
+    background-color: #92be4d;
+    color: #ffffff;
+}
+
+#OTP{
+    border: 3px solid black;
+    font-size: 18px;
+}
+
+
+
+.login_form{
+    border: 2px solid black;
+    width: 100%;
+    height: 160px;
+    background-color: #EDEDED;
+
+    /* margin-top: 50px; */
+    display: none;
+}
+
+#login{
+    border-radius: 7px;
+    border: 2px solid #92be4d;
+    width: 130px;
+    height: 50px;
+    margin-left: 75px;
+    font-size: 20px;
+    background-color: #92be4d;
+    color: #ffffff;
+}
+
+#LVO{
+    font-size: 20px;
+    color:darkgreen;
+    margin-left: 65px;
+}
+
+

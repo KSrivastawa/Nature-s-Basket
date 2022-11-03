@@ -1,0 +1,98 @@
+#shivContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.innerBox {
+  height: 476px;
+  width: 299px;
+}
+
+.im1 {
+  height: 251px;
+  width: 251px;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.del1 {
+  border: 1px solid maroon;
+  width: 70%;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 25px;
+  padding: 3px;
+  font-weight: bold;
+  color: maroon;
+}
+
+#inpr {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+}
+
+.stpr {
+  border: 1px solid maroon;
+  padding: 7px;
+  border-radius: 12px;
+  text-align: canter;
+  text-decoration: line-through;
+}
+
+.pric {
+  border: 1px solid maroon;
+  padding: 7px;
+  border-radius: 12px;
+  text-align: canter;
+  margin-left: 2%;
+}
+
+.btn1 {
+  border: 1px solid maroon;
+
+  border-radius: 12px;
+  text-align: canter;
+  margin-left: 2%;
+  font-size: 12px;
+  width: 34%;
+  height: 34px;
+  margin-top: 4%;
+  background-color: orange;
+  border: 1px solid orange;
+  color: white;
+}
+
+.logo {
+  height: 43px;
+  width: 43px;
+  margin: auto;
+}
+
+.innerBox :hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+h3 {
+  font-size: 21px;
+  padding: 21px;
+  margin-left: 14%;
+}
+
+#big {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}

@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Mukta:wght@200&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+#container {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+#box1 {
+    width: 20%;
+    height: auto;
+    /* border: 1px solid gold; */
+    cursor: pointer;
+}
+
+#box1 div {
+    border: 1px solid #9d9d9d;
+    padding:8px 0px 0px 10px;
+}
+
+
+
+
+#box2 {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
+
+.h1 {
+    color: #b61671;
+    font-weight: bold;
+    padding-right: 9px;
+    margin-left: 10px;
+}
+
+.type03 {
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 1px solid #cdcdcd;
+    display: block;
+    font-size: 18px;
+    margin-left: 0;
+    margin-top: -6px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    text-align: left;
+    font-family: 'Mukta', sans-serif;
+}
+
+.active {
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+}
+
+#box2 ul {
+    float: left;
+    text-align: justify;
+    color: #666666;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.head1{
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 1px solid #999999;
+    display: block;
+    font-size: 22px;
+    margin-left: 0;
+    margin-top: -4px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    text-align: left;
+    font-family: 'Mukta', sans-serif;
+}
+
+.input1{
+    margin:15px 0px 0px 10px;
+    height: 25px;
+    width: 200px;
+}
+
+#divmain{
+    display: flex;
+    justify-content: space-around;
+}
+
+#submit{
+    margin:15px 0px 0px 10px;
+    height: 33px;
+    width: 100px;
+    background-color: #559c0c;
+    color: white;
+    font-weight: bolder;
+<<<<<<< HEAD
+}
+=======
+} 
+>>>>>>> 67b3d4dc6719e1404dc98f995cc8fc729ac11e87

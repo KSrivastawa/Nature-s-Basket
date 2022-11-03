@@ -1,0 +1,142 @@
+#cartContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 21%);
+  grid-template-rows: auto;
+  gap: 10px;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#box {
+  height: 200px;
+  width: 24%;
+  border: 1px solid gray;
+}
+
+.im1 {
+  height: 251px;
+  width: 251px;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.del1 {
+  border: 1px solid maroon;
+  width: 70%;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 25px;
+  padding: 3px;
+  font-weight: bold;
+  color: maroon;
+}
+
+#inpr {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+}
+
+.stpr {
+  border: 1px solid maroon;
+  padding: 7px;
+  border-radius: 12px;
+  text-align: canter;
+}
+
+.pric {
+  border: 1px solid maroon;
+  padding: 7px;
+  border-radius: 12px;
+  text-align: canter;
+  margin-left: 2%;
+}
+
+.btn1 {
+  border: 1px solid maroon;
+
+  border-radius: 12px;
+  text-align: canter;
+  margin-left: 2%;
+  font-size: 12px;
+  width: 34%;
+  height: 34px;
+  margin-top: 4%;
+  background-color: orange;
+  border: 1px solid orange;
+  color: white;
+}
+
+#box:hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.slide {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(1, 210px);
+  gap: 10px;
+  margin: auto;
+}
+
+.slide > div > img {
+  height: 100%;
+}
+
+div.slide {
+  background-color: #ffff;
+  overflow: auto;
+  white-space: nowrap;
+  height: 360px;
+  width: 70%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+div.slide a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  height: 430px;
+  width: 70%;
+  text-align: center;
+}
+
+div.slide a:hover {
+  background-color: #ffff;
+}
+
+.slide > div {
+  height: 290px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+#out {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#alia {
+  text-align: center;
+  width: 34%;
+}
+.button{
+  height: 20px;
+  width: 150px;
+}

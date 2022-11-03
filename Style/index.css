@@ -1,0 +1,387 @@
+.slider_wrapper,
+.slider_wrapnew {
+  display: none;
+}
+.active {
+  background-color: #717171;
+}
+#Slide_bar_container,
+#Slide_bar_container_second {
+  margin-left: 0.5%;
+  width: 98%;
+  position: relative;
+  margin: auto;
+}
+.Slide_img {
+  border-radius: 1rem;
+  width: 100%;
+}
+.xFADE {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes xFADE {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.pagination {
+  position: absolute;
+  overflow: hidden;
+  font-size: 0px;
+  border: solid 0px red;
+  height: 50px;
+  top: 300px;
+  z-index: 99;
+  width: auto;
+  left: 10px;
+}
+.pagination li {
+  float: left;
+  margin: 0px 5px;
+  list-style: none;
+  /* width: 50px; */
+  height: 50px;
+
+
+  /* border: 1px solid #83b748; */
+}
+.pagination li a {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  float: left;
+  overflow: hidden;
+  background-size: 100%;
+  border-radius: 3px;
+  
+}
+/* slider end */
+#event {
+  display: flex;
+  border: 1px solid white;
+  justify-content: space-evenly;
+}
+#event div img {
+  border-radius: 1rem;
+  width: 415px;
+  height: 320px;
+}
+#important_news {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+#important_news div > img {
+  border-radius: 1rem;
+  box-shadow: rgba(12, 8, 8, 0.244) 4px 5px 5px;
+}
+#important_news div > img:hover {
+  cursor: pointer;
+}
+#Slide_bar_container_second {
+  margin-top: 1rem;
+}
+.heading {
+  background: url(https://www.naturesbasket.co.in/Images/heading-bg.png)
+    no-repeat scroll center 0px;
+  float: left;
+  padding: 10px 0;
+  width: 100%;
+  /* border: 1px solid red; */
+  margin: 5px 0 10px;
+}
+.heading h2 {
+  font-weight: normal;
+  background: #ffffff;
+  display: table;
+  margin: -6px auto;
+  padding: 0 30px;
+  text-transform: uppercase;
+  font-family: "CeraPRO-Regular";
+}
+
+/* category_container */
+.fa-solid {
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+
+  background: url(https://www.naturesbasket.co.in/Images/arrow-pro-left1.png);
+}
+.fa-angle-right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+#category_container_main {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+#category_container {
+  margin-top: 1rem;
+  display: flex;
+  width: 98%;
+  margin: auto;
+  scroll-behavior: smooth;
+}
+#category_div {
+  margin-left: 2.5%;
+}
+
+.category_img {
+  border-radius: 1rem;
+  box-shadow: rgba(12, 8, 8, 0.244) 4px 5px 5px;
+}
+
+#cat_name {
+  margin-left: 8%;
+  margin-top: -0.5rem;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  font-family: "CeraPRO-Regular";
+  font-size: 16px;
+  padding: 10px 0 10px 3px;
+  text-align: left;
+}
+.category_info {
+  float: left;
+  width: 80%;
+  font-family: "CeraPRO-Light";
+  margin-top: -1.5rem;
+  margin-left: -1rem;
+  cursor: pointer;
+}
+.category_info li {
+  list-style: none;
+  border-bottom: 1px solid #f1f1f1;
+  background: url(https://www.naturesbasket.co.in/Images/arrows-shop-by.png)
+    no-repeat scroll right 10px;
+  color: #333;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 10px 0 10px 2px;
+
+  /* border: 1px solid red; */
+}
+
+.category_info li:nth-child(4) {
+  color: #83b748;
+}
+
+/* category end */
+
+/* WHAT'S TRENDING */
+
+#whats_trending,
+#discover_more_container,
+#curted_for {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+}
+.whatTren_cat {
+  padding: 1em;
+}
+.whatTren_cat:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* box-sizing: border-box; */
+  cursor: pointer;
+}
+
+.whatTren_cat #trend_img {
+  height: 45vh;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 1rem;
+}
+.whatTren_cat p {
+  text-align: center;
+}
+/* .whatTren_cat .name_tren:nth-child(0){
+  color: #b71761;
+} */
+
+.mrpvalues p,
+.mrps_values p {
+  border: 1px solid #cfcfcf;
+  padding: 7px 11px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.time_tren,
+.delivarytime {
+  margin-bottom: -3%;
+  border: 1px solid rgb(182, 22, 113);
+  width: 80%;
+  margin: auto;
+  font-size: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 2px 0 2px;
+  background: rgba(208, 178, 139, 0.09);
+}
+.whatTren_cat div {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-top: -8%;
+}
+
+#cart_img {
+  width: 95px;
+  height: 37px;
+  cursor: pointer;
+  margin-top: 6%;
+  margin-left: 4%;
+  border-radius: 10px;
+}
+
+/* discover more */
+
+#discover_more {
+  border: 1px solid #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  font-family: "CeraPRO-Regular";
+}
+#discover_more div {
+  border: 0px solid #f1f1f1;
+  background: #f3f3f3 none repeat scroll 0 0;
+  cursor: pointer;
+  text-align: center;
+  width: 24.88%;
+  font-size: 15px;
+}
+#discover_more div h4 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "CeraPRO-Regular";
+  /* border: 1px solid red; */
+  text-transform: uppercase;
+  margin-top: 1.2em;
+}
+
+/* .controls-direction a {
+  position: absolute;
+  top: 65%;
+  margin-top: -100px;
+  outline: 0;
+  width: 18px;
+  height: 34px;
+  text-indent: -9999px;
+  z-index: 0;
+}
+.prev,.next {
+
+  background-image: url(https://www.naturesbasket.co.in/Images/arrow-pro-left1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+}
+.next{
+  background-image: url(https://www.naturesbasket.co.in/Images/arrow-pro-right1.png);
+} */
+
+.Brand_slider,
+#curted_for_container {
+  height: 50px;
+  width: 98%;
+  margin: auto;
+}
+.carousel-cell:before {
+  display: block;
+  /* content: counter(carousel-cell); */
+}
+.carousel-cell {
+  width: 20%;
+  height: 150px;
+  /* border: 1px solid red; */
+}
+.flickity-page-dots {
+  display: none;
+}
+.carousel-cell img {
+  margin-top: 2.2rem;
+  margin-left: 25px;
+}
+#treding_offer_container,
+#Curted_for_container {
+  /* border:1px solid #f1f1f1; */
+  text-shadow: none;
+  color: white;
+}
+#rtrendingoffe {
+  width: 25%;
+  height: 500px;
+  margin-top: -20px;
+  /* border: 1px solid red; */
+}
+#rtrendingoffe:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#rtrendingoffe img {
+  /* border: 1px solid teal; */
+  height: 45vh;
+  /* width: %; */
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 1rem;
+}
+.carousel-cell p {
+  text-align: center;
+}
+.delivarytime {
+  margin-top: 15px;
+}
+.mrps_values {
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+}
+#strike {
+  margin-right: 2%;
+}
+.mrps_values #cart_img {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+#information_classcification > p {
+  margin: 0 0 20px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: -1rem;
+  color: #666666;
+}
+* {
+  font-family: "CeraPRO-Medium";
+}
+
+.fnvFooter p a {
+  color: #880033;
+}
+
+#discover_more .active {
+  background: #fff;
+  border-bottom: 3px solid #84b947;
+  position: relative;
+  color: #84b947;
+  font-family: "CeraPRO-Regular";
+}

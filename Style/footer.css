@@ -1,0 +1,436 @@
+/* 1st */
+.row {
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid white;
+
+}
+
+/* 1.1 */
+.download-app {
+    float: left;
+    margin: 3px 0 0 56px;
+    width: 266px;
+}
+
+/* 1.2 */
+.col-5-1 {
+    width: 45.8%;
+}
+
+.footernav1 h4 {
+    color: #4a4a4a;
+    font-family: "CeraPRO-Medium";
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.footernav1 li h4 a,
+.download-app h4 {
+    color: #4a4a4a;
+    font-family: "CeraPRO-Medium";
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.footernav1 li:nth-child(6) h4 {
+    margin: 24px 0 0;
+}
+
+h4 {
+    color: #858585;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.footernav1 li {
+    color: #858585;
+    font-size: 12px;
+    line-height: 24px;
+    width: 87%;
+    text-align: left;
+}
+
+.footernav1 li.dropdown+li {
+    display: inline-block;
+    margin: 20px 0 0;
+}
+
+.footernav1 li a {
+    color: #858585;
+    display: block;
+    font-family: "CeraPRO-Regular";
+    font-size: 13px;
+}
+
+.horizontaldivder {
+    border-top: 1px solid;
+    color: #d3d2d2;
+    height: 2px;
+    margin: 0 0 17px;
+}
+
+.col-4,
+.col-3-9 {
+    display: block;
+    float: left;
+    margin: 0 0.0%;
+    width: 33.33%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footersection2 .horizontaldivder {
+    display: none;
+}
+
+.topSectionleft li.dropdown ul {
+    background: none repeat scroll 0 0 #ffffff;
+    display: none;
+    left: -1px;
+    background: grey;
+    top: 26px;
+    width: 100%;
+    z-index: 214748364799;
+}
+
+#headerTimeSlot:hover #timeSlotList {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    z-index: 99999;
+    border: 1px solid #74b124;
+    width: 200px;
+    padding: 0 0 10px;
+    font-size: 12px;
+}
+
+.dropdowncity div,
+#headerTimeSlot {
+    /*border: 1px solid #858585;*/
+    float: left;
+    height: 22px;
+    margin-top: 0px;
+    position: relative;
+    width: 200px;
+    z-index: 0;
+}
+
+#headerTimeSlot ul#timeSlotList div.location {
+    border-bottom: 1px solid #999;
+    margin: 0 10px;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+#headerTimeSlot:hover .location span {
+    color: #94886c;
+}
+
+.timeslot {
+    font-size: 15px;
+    color: #3b9ac6;
+}
+
+.timeSlot {
+    color: #858585;
+    z-index: 999;
+    display: block;
+    padding: 0px 0 0 0px;
+
+    /*background: url("https://d1z88p83zuviay.cloudfront.net/Images/delivery-drop-arrow-inactive.png") no-repeat scroll 95% 10px;*/
+
+    cursor: pointer;
+    font-family: "CeraPRO-Light";
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#timeSlotList {
+    display: none;
+    padding: 1px, 1px, 1px, 1px;
+    border: 1px solid #94886c;
+    color: #94886c;
+    font-size: 11px;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+#timeSlotList li,
+#timeSlotList li a {
+    border: 0.5px regular black;
+    padding-top: 10px;
+    width: auto;
+    position: relative;
+    padding-left: 25px;
+    background: url("https://d1z88p83zuviay.cloudfront.net/Images/bullet-delivery.gif") no-repeat scroll 15px 16px;
+    line-height: 10px;
+    list-style: oustside none none;
+    color: #000000;
+}
+
+/* 1.3 */
+
+.paymentmode span,
+.newsletter span {
+    float: left;
+    font-size: 15px;
+    color: #4a4a4a;
+    font-family: "CeraPRO-Medium";
+    padding-top: 4px;
+}
+
+
+.col-3-5.newsletter>input[type="text"] {
+    background: #fff;
+    border: 1px solid #cecdcc;
+    color: #1f1e1e;
+    font-family: "CeraPRO-Light";
+    font-size: 14px;
+    height: 45px;
+    margin-top: 20px;
+    min-width: 250px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.col-3-5.newsletter>input[type="button"] {
+    font-family: CeraPRO-Regular;
+    background: #99c655;
+    border: 10px none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 8px 20px;
+    right: 5px;
+    text-transform: uppercase;
+}
+
+.col-3-5.newsletter {
+    margin: 0 2% 0 0;
+    position: relative;
+    width: 302px;
+}
+
+.ErrorTextMsg {
+    font-size: 12px;
+    font-family: CeraPRO-Regular;
+}
+
+.ErrorTextMsg {
+    color: #F00;
+    font-size: 11px;
+}
+
+/* 2nd */
+.btmfootersocialicons {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 49px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    /* border: 1px solid royalblue; */
+
+}
+
+
+
+/* 2.1 */
+
+.col-4-2.paymentmode {
+    margin: 0 0 0 60px;
+}
+
+
+
+.paymentmethodbg {
+    color: #111111;
+    font-family: "CeraPRO-Light";
+    font-size: 13px;
+    text-transform: initial;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+.paymentmethodbg img {
+    float: right;
+    padding-top: 5px;
+    margin-left: 14px;
+}
+
+
+/* 2.2 */
+
+
+i {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #9d9d9d;
+}
+
+
+
+.col-3-9.socialiconbtm li {
+    padding-right: 2px;
+    color: #111111;
+    font-family: 'CeraPRO-Regular';
+    font-size: 13px;
+    text-transform: initial;
+    display: inline-block;
+}
+
+.col-3-9.socialiconbtm li:first-child {
+    margin: 0;
+}
+
+
+/* 3rd */
+
+.category-footer {
+    background: hsl(0, 0%, 98%) none repeat scroll 0 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.category-footer .container {
+    background: #fbfbfb;
+    display: table;
+
+    /*padding-top: 20px;*/
+
+}
+
+.category-footer .container .col:first-child {
+    margin-left: 60px;
+}
+
+.category-footer .container .col {
+    float: left;
+    width: 19%;
+}
+
+.category-footer .container .col>ul {
+    display: inline-block;
+
+    /* float:left; */
+
+    /* float: left; */
+    margin: 5px 0 30px;
+    vertical-align: top;
+}
+
+.category-footer .container .col>ul>li {
+    font-weight: bold;
+}
+
+.category-footer .container .col>ul>li>a {
+    color: #4a4a4a;
+    display: block;
+    font-family: "CeraPro-Medium";
+    font-size: 15px;
+    margin: 10px 0 5px;
+    padding: 0 0 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.category-footer .container .col>ul>li li {
+    padding: 0 0 3px;
+    text-align: left;
+}
+
+.category-footer .container .col>ul>li li a {
+    color: #858585;
+    font-family: "CeraPRO-Regular";
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.category-footer .container .col.inner {
+    width: 100%;
+}
+
+.category-footer .container .col.inner>ul>li {
+    width: 25%;
+    float: left;
+}
+
+.category-footer .container .col.inner>ul {
+    display: block;
+    width: 100%
+}
+
+.category-footer .container .col.inner>ul>li>a {
+    margin: 10px 20px 5px 0;
+    word-wrap: break-word;
+}
+
+/* 4th */
+.footerbottom,
+.footerbottom a {
+    color: #4a4a4a;
+    overflow: hidden;
+    font-family: "CeraPRO-Regular";
+    font-size: 13px;
+}
+
+
+.footerbottom {
+    font-family: 'CeraPRO-Regular';
+}
+
+.footerbottom ul {
+    float: none;
+    margin: 16px auto 0;
+    width: 90%;
+}
+
+.footerbottom li {
+    float: left;
+    margin: 0 4px;
+}
+
+
+.footerbottom a {
+    background: none;
+
+}
+
+.fluidcontainer {
+    clear: both;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.footerbottom .container {
+    border-top: 1px solid #e0e0e0;
+    display: table;
+    color: #4a4a4a;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 0;
+    font-family: "CeraPRO-Light";
+    font-size: 13px;
+}
+
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 1320px;
+    background: #ffffff;
+    position: relative;
+
+}
+
+.container > ul {
+    list-style-type: none;
+}

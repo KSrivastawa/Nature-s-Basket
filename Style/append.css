@@ -1,0 +1,37 @@
+#append{
+    /* width: 80%; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    text-align: center;
+    /* margin-left: 10px; */
+}
+.append_div{
+    height: 400px;
+    border: 1px hidden;
+
+}
+.image{
+    height: 60%;
+    border-radius: 5%;
+}
+.mrp_div{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    font-size: small;
+}
+.div_add_img{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 60px;
+    border-radius: 5%;
+}
+.add_img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    margin-left: 10px;
+    cursor: pointer;
+}

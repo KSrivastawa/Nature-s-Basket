@@ -1,0 +1,49 @@
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+#main{
+    display:flex;
+}
+#left{
+  width: 20%;
+}
+#filter{
+    border: 1px solid rgb(192, 186, 186);
+    height: 22%;
+    width:69%;
+    padding: 20px;
+}
+
+#form{
+    /* border: 1px solid gray; */
+    margin-top: 10px;
+    width: 80%;
+    background: #e1e2d2;
+    padding: 5px;
+}
+form{
+    /* border: 1px solid gray; */
+    height: 10%;
+    width: 85%;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+
+#right_gifthamper{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+#right_gifthamper_left{
+    height: 40px;
+display: grid;grid-template-columns: repeat(2,1fr);
+gap: 20px;
+font-size: medium;
+}
+#right_gifthamper_left div{
+    height: 30px;
+}
