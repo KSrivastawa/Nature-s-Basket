@@ -32,12 +32,10 @@
 
 ### Team 
 
-- Manish Singh Chouhan
-- Akash Bhoi 
-- Dipak S 
-- Shivam 
-- Fahim Shamshad
-- Paras Aghi
+- Ketan Srivastawa
+- Sonu Prasad 
+- Abhirami
+- Antra Burman
 
 ### Lessons Learned
 
